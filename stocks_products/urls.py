@@ -16,8 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import include, path
 
-
-from logistic.views import sample_view, TestView
+from logistic.views import TestView
 
 urlpatterns = [
     path('admin/', admin.site.urls),

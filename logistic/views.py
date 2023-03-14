@@ -26,8 +26,3 @@ class StockViewSet(ModelViewSet):
 class TestView(APIView):
     def get(self, request):
         return Response('hi1')
-
-
-@api_view(['GET'])
-def sample_view(request):
-    return Response('This is checking!')
