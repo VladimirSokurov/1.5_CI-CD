@@ -22,6 +22,7 @@ class StockViewSet(ModelViewSet):
     filter_backends = [DjangoFilterBackend, SearchFilter]
     filterset_fields = ['products']
 
+
 class TestView(APIView):
     def get(self, request):
         return Response('hi1')
