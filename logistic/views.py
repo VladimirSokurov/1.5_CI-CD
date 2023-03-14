@@ -25,4 +25,4 @@ class StockViewSet(ModelViewSet):
 
 class TestView(APIView):
     def get(self, request):
-        return Response('hi1')
+        return Response('hi2')
